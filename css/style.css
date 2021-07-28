@@ -1,0 +1,44 @@
+body {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+.navbar-brand {
+    text-align: center;
+    height: 75px;
+    background-image: linear-gradient(to right, rgb(88, 88, 252) , rgb(6, 6, 87));
+    color: white;
+    width:100%;
+    margin-right: 0;
+  }
+
+.row {
+    margin: 40px;
+}
+
+.card {
+    background-color: rgb(207, 202, 202);
+}
+
+.header {
+    background-color: rgb(135, 194, 241);
+    
+}
+
+.head {
+    margin: 15px;
+}
+
+.borderList {
+    margin:15px;
+    background-color: rgb(189, 186, 186);
+    border: 1px solid rgb(216, 212, 212);
+}
+
+.info {
+    text-align: center;
+}
+
+.list-group-item {
+    margin-bottom: 0px;
+}
