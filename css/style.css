@@ -1,13 +1,14 @@
 body {
     font-size: 16px;
     line-height: 1;
+    background-color: rgb(219, 219, 240);
   }
 
 .navbar-brand {
     text-align: center;
     height: 75px;
     background-image: linear-gradient(to right, rgb(88, 88, 252) , rgb(6, 6, 87));
-    color: white;
+    color: rgb(255, 255, 255);
     width:100%;
     margin-right: 0;
   }

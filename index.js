@@ -1,11 +1,11 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const open = require('open');
-const open = require('html-renderer');
-const Letter = require('lib/Employee');
-const Letter = require('lib/Engineer');
-const Letter = require('lib/Intern');
-const Letter = require('lib/Manager');
+//const htmlRenderer = require('html-renderer');
+const Employee = require('./lib/Employee');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+const Manager = require('./lib/Manager');
 
 inquirer
     .prompt([
@@ -35,3 +35,10 @@ inquirer
     });
 
 
+
+    //<i class="fas fa-glasses"></i>
+    //<i class="fas fa-mug-hot"></i>
+    //<i class="fas fa-user-graduate"></i>
+    //could assign a class per role
+    //create a separate js to build the html for the roles
+    //
