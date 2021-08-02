@@ -19,11 +19,12 @@ body {
 
 .card {
     background-color: rgb(207, 202, 202);
+    margin: 20px;
 }
 
 .header {
     background-color: rgb(135, 194, 241);
-    
+    margin:0px;
 }
 
 .head {

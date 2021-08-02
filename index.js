@@ -47,6 +47,8 @@ const moreEmployees = () => {
         } else {
             module.exports = teamArray;
             makeHTML(teamArray);
+
+            
         }
     })
     .catch((err) => console.log(err));
@@ -139,12 +141,12 @@ start();
 
 
 
-    /*
-    const filename = "README.md";
-    fs.writeFile(filename, index, (err) => {
-      err ? console.log(err) : console.log('Success!')
-      open('README.md', { "wait": true });
-    }
-    );
-    */
+/*
+const filename = "index.html";
+fs.writeFile(filename, makeHTML, (err) => {
+    err ? console.log(err) : console.log('Success!')
+    open('index.html', { "wait": true });
+}
+);
+*/
 
