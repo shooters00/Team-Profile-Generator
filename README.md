@@ -5,6 +5,9 @@
 ## Description
 This is a JHU Bootcamp assignment to generate a team profile using the Node.js command line, inquirer, Object-oriented JavaScript with classes/contructors/modules, and write tests using Jest.  
 
+## Video
+https://user-images.githubusercontent.com/80861572/127891983-c057e0ff-985b-4cc6-b79f-68c87f2dcbd3.mp4
+
 #### Table of Contents
 If your README is long, add a table of contents to make it easy for users to find what they need.
 1. [Installation](#installation)
