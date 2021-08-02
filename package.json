@@ -18,9 +18,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shooters00/Team-Profile-Generator/issues"
+    "url": "https://github.com/shooters00/team-profile-generator/issues"
   },
-  "homepage": "https://github.com/shooters00/Team-Profile-Generator#readme",
+  "homepage": "https://github.com/shooters00/team-profile-generator#readme",
   "dependencies": {
     "html-renderer": "0.0.6",
     "inquirer": "^8.1.2",

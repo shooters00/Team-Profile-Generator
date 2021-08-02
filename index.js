@@ -77,7 +77,7 @@ const addMore = () => {
 }
 
 const addEngineer = () => {
-    console.log('Made it to add Engineer function');
+    //console.log('Made it to add Engineer function');
     inquirer
     .prompt(engineerQuestions)
     .then((data) => {
@@ -91,7 +91,7 @@ const addEngineer = () => {
 }
 
 const addIntern = () => {
-    console.log('Made it to add Intern function');
+    //console.log('Made it to add Intern function');
     inquirer
     .prompt(internQuestions)
     .then((data) => {
@@ -122,11 +122,11 @@ const addToTeam = ({ role, name, id, email, officeNumber, github, school}) => {
             //makeHTML(teamArray);
             //return;
     }
-    console.log('Team Member:');
-    console.log(teamMember);
+    //console.log('Team Member:');
+    //console.log(teamMember);
     teamArray.push(teamMember);
-    console.log('Team Array');
-    console.log(teamArray);
+    //console.log('Team Array');
+    //console.log(teamArray);
 }
 
 /*
